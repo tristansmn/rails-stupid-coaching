@@ -1,0 +1,39 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	color: blue;
+}
+
+.question {
+	display: flex;
+	flex-direction: column;
+	border-left: solid 5px #eae3e3;
+	text-align: left;
+	width: 500px;
+	height: 100px;
+	margin: 30px auto; 
+
+	p {
+		padding-left: 20px;
+	}
+}
+
+.answer {
+	display: flex;
+	flex-direction: column;
+	background-color: #f5e9c68c;
+	border-left: solid 5px #eae3e3;
+	text-align: left;
+	width: 500px;
+	height: 100px;
+	margin: 30px auto; 
+	p {
+		padding-left: 20px;
+	}
+}
+
+.italic-text {
+	font-style: italic;
+}
